@@ -1,0 +1,93 @@
+*{
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    box-sizing: border-box;
+    font-family: 'Kanit', sans-serif;
+}
+header{
+    background-color: black;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    background-image: url(https://cdn.gencraft.com/prod/user/b7193f7d-3928-4f31-9282-ecc5b47c9266/0fa4d7d7-7052-4379-9f1e-ac2b70febfdd/images/image1_0.jpg?Expires=1695627556&Signature=RJJgqY37BKcVl8NjHDILs4UXtzIfPwvWzJ8KfZoWXiOgJFWTxKaFxZrJcu0IwBxUnDsiL6-ITG5A~Y34wBPcUO7kzgholUk1e5N02Az4cr0Ko-Pt7PrAAZhprWvjDjRjh3svYGBjx~4kRkW~3~ViMiiST30CtOdOB8ToWtZ195NXea2iXlxabqdv18ypBhYZi~3HclCn54GeGiRRcgV2hybCHxtmiev4gli4Ja1~33iV6djGMtWRlUjwcsWWwp8hdtBeDcyy8M8sbDHXwemvuWdFWxDTJk0uUcdpxFWE9x9WacyoY9Z4N9vQWFh9HKm58CWgj1SsWMreD4pAWshPtA__&Key-Pair-Id=K3RDDB1TZ8BHT8);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 1%;
+}
+.hero{
+    display: flex;
+    justify-content: space-around;
+    gap: 30px;
+    margin-top: 0.5%;
+   
+}
+.zero1{
+    display: flex;
+    color: white;
+    background-color: purple;
+    /* padding-top: 3%;
+    padding-bottom: 3%;
+    padding-left: 3%;
+    padding-right: 3%; */
+    /* padding: 5%; */
+    font-weight: 600;
+    gap:10px;  
+    cursor: pointer;
+    padding: 10px;
+    border-radius: 10px;
+    margin-left: 10cm;
+    margin-bottom: 0.5%;
+}
+.zero1:hover{
+    color: purple;
+    background-color: black;
+}
+.zero2{
+    margin-top: 2%;
+    cursor: pointer;
+    color: white;
+    background-color: purple;
+    font-weight: 600;  
+    cursor: pointer;
+    padding: 10px;
+    border-radius: 10px;
+}
+.zero2:hover{
+    color: purple;
+    background-color: black;
+}
+.hero li a{
+    text-decoration: none;
+    font-weight: 700;
+    color: white;
+    
+}
+section{
+    margin-top: 10%;
+    text-align: center;
+    
+}
+h1{
+    font-weight: 900;
+    font-size:xx-large;
+    
+}
+p{
+    margin-top: 1%;
+}
+span{
+    color: white;
+}
+
+.logo{
+    font-size: x-large;
+    font-weight: 900;
+    color: white;
+    
+}
